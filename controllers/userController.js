@@ -8,7 +8,7 @@ import Wishlist from "../models/Wishlist.js";
 import Cart from "../models/Cart.js";
 import Product from "../models/Product.js";
 import Order from "../models/Order.js";
-import { data } from "react-router-dom";
+
 
 import { generateOTP, sendOTP } from "../config/mailer.js";
 
