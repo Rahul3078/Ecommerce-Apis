@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 
 await connectDB()
 
-
+app.use(cors())
 app.get("/", (req, res) => {
     res.send("API is running")
 })
