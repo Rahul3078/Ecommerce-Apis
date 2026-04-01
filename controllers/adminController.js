@@ -672,7 +672,7 @@ export const getallproduct = async (req, res) => {
                 result: "false"
             })
         }
-        res.status(400).json({
+        res.status(200).json({
             message: "product get succesfull",
             result: "true",
             data: getproduct
