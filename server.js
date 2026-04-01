@@ -3,7 +3,7 @@ import { connectDB } from './DB/db.js';
 import userRoutes from "./routes/userRoutes.js"
 import adminRoutes from "./routes/adminRoutes.js"
 import dotenv from 'dotenv';
-import cors from 'cors'
+import cors from "cors"
 
 dotenv.config()
 
